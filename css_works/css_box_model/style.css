@@ -1,0 +1,30 @@
+.main{
+    width: 70%;
+    height: 200px;
+    background-color: rgb(7, 69, 162);
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 5%;
+}
+
+.sub1{
+    width: 15%;
+    height: 20%;
+    background-color: green;
+    border: 2px solid greenyellow;
+    margin: 10px;
+    padding-left: 45px;
+    padding-top: 20px;
+
+}
+
+.sub2{
+    width: 15%;
+    height: 20%;
+    background-color: brown;
+    border: 3px solid rgb(10, 115, 200);
+    margin: 10px;
+    padding-left: 45px;
+    padding-top: 20px;
+
+}

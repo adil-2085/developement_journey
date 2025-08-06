@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+
+}
+.margin{
+    margin:7px ;
+}
+.main{
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    
+}
+.sub1{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content:center;  
+   
+    align-items:center;      
+}
+.sub2{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content:center; 
+    
+    align-items:3px;
+      
+}
+.sub3{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content:center;
+    
+    align-items:3px;
+        
+}
+
+.sub1_box1{
+    width: 10%;
+    height: 100%;
+    background-color: #4f4f57;
+}
+.sub1_box2{
+    width: 10%;
+    height: 100%;
+    background-color: #4c735e;
+}
+.sub1_box3{
+    width: 10%;
+    height: 100%;
+    background-color: #3bad68;
+}
+.sub1_box4{
+    width: 10%;
+    height: 100%;
+    background-color: #00d64c;
+}
+.sub1_box5{
+    width: 10%;
+    height: 100%;
+    background-color: #cdcdcd;
+}
+.sub2_box1{
+    width: 10%;
+    height: 100%;
+    background-color: #ed8701;
+}
+.sub2_box2{
+    width: 10%;
+    height: 100%;
+    background-color: #c95057;
+}
+.sub2_box3{
+    width: 10%;
+    height: 100%;
+    background-color: #ae7e94;
+}
+.sub2_box4{
+    width: 10%;
+    height: 100%;
+    background-color: #7a61c6;
+}
+.sub2_box5{
+    width: 10%;
+    height: 100%;
+    background-color: #521db6;
+}
+.sub2_box6{
+    width: 10%;
+    height: 100%;
+    background-color: #7a61c6;
+}
+.sub2_box7{
+    width: 10%;
+    height: 100%;
+    background-color: #726e7d;
+}
+.sub3_box1{
+    width: 10%;
+    height: 100%;
+    background-color: #63d6cf;
+}
+.sub3_box2{
+    width: 10%;
+    height: 100%;
+    background-color: #bcf99a;
+}
+.sub3_box3{
+    width: 10%;
+    height: 100%;
+    background-color: #f7a269;
+}
+.sub3_box4{
+    width: 10%;
+    height: 100%;
+    background-color: #a31b5d;
+}
+.sub3_box5{
+    width: 10%;
+    height: 100%;
+    background-color: #391f2c;
+}
+.sub3_box6{
+    width: 10%;
+    height: 100%;
+    background-color: #42dfc0;
+}
+.sub3_box7{
+    width: 10%;
+    height: 100%;
+    background-color: #5ba688;
+}
+.sub3_box8{
+    width: 10%;
+    height: 100%;
+    background-color: #5d568a;
+}
+.sub3_box9{
+    width: 10%;
+    height: 100%;
+    background-color: #4c3059;
+}

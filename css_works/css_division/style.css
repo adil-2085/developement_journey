@@ -1,0 +1,18 @@
+.card{
+    border: 2px solid black;
+    width: 25%;
+    height: 20%;
+    background-color: #afe50e ;
+    ;
+
+}
+.class-title{
+    text-align: center;
+    color: #1E1E2F ;
+    text-decoration: underline;
+}
+
+.card>p{
+    text-align: center;
+    color: #49402c;
+}

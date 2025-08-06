@@ -1,0 +1,22 @@
+.main{
+    display: flex;
+    border: 2px solid black;
+    justify-content:space-between;
+    
+}
+
+.left{
+    display: flex;
+    justify-content: flex-start;
+}
+.middle{
+    display: flex;
+}
+.right{
+    display: flex;
+    justify-content:flex-end;
+}
+.margin{
+    border: 1px solid black;
+    padding: 2px;
+}

@@ -1,0 +1,50 @@
+
+
+/* selectors */
+
+/* id selector  (#)*/
+
+#one{
+    color: aquamarine;
+}
+#two{
+    color: blueviolet;
+}
+#three{
+    color: brown;
+}
+ 
+h1{
+    color:darkred;
+}
+
+
+/* class selector ( . )*/
+
+
+.one{
+    color: aqua;
+
+
+}
+
+.two{
+    color: blueviolet;
+}
+.three{
+    color:brown ;
+}
+.border{
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+
+}
+
+
+/* tag selector */
+
+
+h1{
+    color: blue;
+}

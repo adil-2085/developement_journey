@@ -1,0 +1,37 @@
+body{
+    width: 90vW;
+    height: 90vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;/
+    
+
+
+}
+
+.main{
+    width: 70%;
+    height: 400px;
+    /* border: 2px solid black   ; */
+    display: grid;
+    grid-template-rows:1fr 1fr 1fr;  /*repeat(times,value)*/
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    grid-column-gap:20px ;
+    grid-row-gap: 15px;
+
+}
+
+.sub{
+    background-color: aquamarine;
+    
+    border: 2px solid white;
+
+}
+ 
+.sub:nth-child(1){
+    background-color: blue;
+    grid-column-start: 1;
+    grid-row-start: 3;
+}

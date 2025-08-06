@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+  </head>
+  <body>
+    <form action="">
+      <h1>student registration</h1>
+      <div>
+        <label for="roll">Roll no:</label>
+        <input type="text" id="roll" />
+      </div>
+      <div>
+        <label for="name">Student name:</label>
+        <input type="text" id="name" placeholder="first name" /> -
+        <input type="text" placeholder="last name" />
+      </div>
+      <div>
+        <label for="fname">Father's name:</label>
+        <input type="text" id="fname">
+      </div>
+      <div>
+        <label for="dob">Date of birth:</label>
+        <input type="date" id="dob">
+      </div>
+      <div>
+        <label for="mob">Mobile no:</label>
+        <input type="text" id="mob" placeholder="+91">
+        <input type="text" placeholder="+91">
+      </div>
+      <div>
+        <label for="email">Email Id:</label>
+        <input type="email" id="email">
+      </div>
+      <div>
+        <label for="pass">Password:</label>
+        <input type="password" id="pass">
+      </div>
+      <div>
+        <label for="">Gender:</label>
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="female" id="female">
+        <label for="female">Female</label>
+      </div>
+      <div>
+        <label for="">Department</label>
+        <input type="checkbox" value="cs" id="CS"><label for="CS">CS</label>
+        <input type="checkbox" value="IT" id="IT"><label for="IT">IT</label>
+        <input type="checkbox" value="ECE" id="ece"><label for="ece">ECE</label>
+        <input type="checkbox" value="CIVIL" id="civil"><label for="civil">CIVIL</label>
+      </div>
+      <div>
+        <label for="cource">Cource</label>
+        <select name="" id="">
+            <option value="">--Select an option--</option>
+            <option value="django">Django</option>
+            <option value="mearn">Mearn</option>
+            <option value="data science">Data science</option>
+            <option value="testing">testing</option>
+        </select>
+      </div>
+      <div>
+        <label for="img">Student photo</label>
+        <input type="file" accept="image/*" id="img">
+      </div>
+      <div>
+        <label for="city">City</label>
+        <input type="text" id="city">
+
+      </div>
+      <div>
+        <label for="">Address</label>
+        <textarea name="" id="" rows="5" cols="60"></textarea>
+      </div>
+      <button type="submit">Register</button>
+    </form>
+  </body>
+</html>

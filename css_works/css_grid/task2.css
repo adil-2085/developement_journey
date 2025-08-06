@@ -1,0 +1,42 @@
+.main{
+    width: 70%;
+    height:90vh;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows:repeat(4,1fr);
+    gap: 10px;
+}
+.sub:nth-child(1){
+    grid-column: 1/4;
+    background-color: palevioletred;
+
+}
+.sub:nth-child(2){
+    grid-row: 2/4;
+    grid-column: 1/3;
+    background-color: mediumturquoise;
+}
+.sub:nth-child(3){
+    grid-row: 2/4;
+    background-color: chocolate;
+}
+.sub:nth-child(4){
+    grid-column:1/4 ;
+    background-color: aquamarine;
+}
+.sub:nth-child(1):hover{
+    background-color: deeppink;
+    color: rgb(84, 6, 85);
+}
+.sub:nth-child(2):hover{
+    background-color: deeppink;
+    color: rgb(84, 6, 85);
+}
+.sub:nth-child(3):hover{
+    background-color: deeppink;
+    color: rgb(84, 6, 85);
+}
+.sub:nth-child(4):hover{
+    background-color: deeppink;
+    color: rgb(84, 6, 85);
+}
