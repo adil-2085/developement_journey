@@ -18,10 +18,9 @@ for i in range(len(text)+1):
             
             long_pallindrome = sample
 
-str="".join(long_pallindrome)
+            str=text[j:i]
 
-for i in long_pallindrome:
+# str="".join(long_pallindrome)
 
-    print(i,end = '')
-    
 print(str)
+    
