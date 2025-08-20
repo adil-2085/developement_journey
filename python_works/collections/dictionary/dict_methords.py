@@ -28,5 +28,5 @@ for v in fruits.values():
 
     print(v)
 
-
+print()
 # def get()
