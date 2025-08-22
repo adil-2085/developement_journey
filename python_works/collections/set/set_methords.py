@@ -4,10 +4,10 @@
 
 # methords
 
-# union()
-# intersection()
-# difference()
-#add()  - it is used to add an element to a set
+# union()   -  merging
+# intersection()  - common elements
+# difference()   - 
+# add()  - it is used to add an element to a set
 # issubset(object)  - it is used to check if the set is subset of another set
 # symmetric_difference(object) = (a - b) U (b - a)
 
