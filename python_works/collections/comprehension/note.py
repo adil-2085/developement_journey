@@ -12,6 +12,8 @@
 
 arr = [2,3,4,5]
 # mapping  --  it returns values for every 
+# filtering
+# reduce
 square_list = ([i**2 for i in arr])
 
 odd = [i for i in arr if i%2!=0]
@@ -19,5 +21,6 @@ odd = [i for i in arr if i%2!=0]
 even = [i for i in arr if i%2==0]
 
 print(odd)
+
 
 print(even)
