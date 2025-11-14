@@ -1,0 +1,37 @@
+body{
+    background-color: yellowgreen;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    display: none;
+}
+
+
+@media(max-width:1000px){
+
+    body{
+        background-color: white;
+        color: black;
+    }
+    h3{
+        display: block;
+    }
+
+    h1{
+        display: none;
+    }
+}
+
+@media(min-width:1500px){
+    
+    body{
+        background-color: white;
+        color: black;
+    }
+
+}
